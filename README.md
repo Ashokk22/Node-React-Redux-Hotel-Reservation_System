@@ -28,6 +28,7 @@ You can run a webserver and see your changes live in your web browser:
 Start MongoDB server on port 27017
   Run Command "Mongod"
   Run Command "Mongo"
+
 1 - http://localhost:8000/api/reservations (GET) - To fetch all reservations
 2 - http://localhost:8000/api/reservation (POST) -  {name, hotelName, arrivalDate, departureDate}
 3 - http://localhost:8000/api/reservations/:id (PUT) -  {name, hotelName, arrivalDate, departureDate}
