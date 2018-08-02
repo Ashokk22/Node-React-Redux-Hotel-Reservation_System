@@ -7,4 +7,4 @@ import {searchActionReducer} from '../components/reservations/search/SearchActio
 export const appReducer = combineReducers({
     reservations : reservationActionReducer,
     search : searchActionReducer
-});
+}); 
